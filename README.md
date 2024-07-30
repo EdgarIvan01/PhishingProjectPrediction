@@ -1,27 +1,27 @@
-# Detector de Phishing Basado en URLs Utilizando Naive Bayes
+# URL-Based Phishing Detector Using Naive Bayes
 
-## Introducción
+## Introduction
 
-El phishing es una amenaza significativa en la seguridad en línea, donde atacantes utilizan URLs engañosas para obtener información confidencial de los usuarios. Este proyecto se centra en desarrollar un detector de phishing basado en características de las URLs, utilizando el algoritmo de Naive Bayes (NB).
+Phishing is a significant threat to online security, where attackers use deceptive URLs to obtain sensitive information from users. This project focuses on developing a URL-based phishing detector using the Naive Bayes (NB) algorithm.
 
-## Objetivo
+## Objective
 
-El objetivo principal es diseñar y evaluar un modelo de clasificación que identifique URLs de phishing con alta precisión y bajo número de falsos positivos. Para ello, nos enfocamos en:
+The main objective is to design and evaluate a classification model that identifies phishing URLs with high accuracy and low false positives. To do so, we focus on:
 
-1. **Extracción de Características:** Longitud de la URL, caracteres especiales, subdominios, uso de HTTPS, entre otros.
-2. **Entrenamiento del Modelo:** Uso de un conjunto de datos etiquetados para entrenar el modelo NB.
-3. **Evaluación del Modelo:** Medición del rendimiento con métricas como precisión, recall, F1-score y tasa de falsos positivos.
+1. **Feature Extraction:** URL length, special characters, subdomains, HTTPS usage, among others.
+2. **Model Training:** Using a labeled dataset to train the NB model.
+3. **Model Evaluation:** Measuring performance with metrics such as precision, recall, F1-score, and false positive rate.
 
-## Metodología
+## Methodology
 
-1. **Recopilación de Datos:** URLs legítimas y de phishing.
-2. **Preprocesamiento:** Limpieza y extracción de características de las URLs.
-3. **Entrenamiento y Evaluación:** Implementación del algoritmo NB y validación cruzada del modelo.
-4. **Optimización:** Ajuste de parámetros para mejorar el rendimiento.
+1. **Data Collection:** Legitimate and phishing URLs.
+2. **Preprocessing:** Cleaning and feature extraction from URLs.
+3. **Training and Evaluation:** Implementation of the NB algorithm and cross-validation of the model.
+4. **Optimization:** Parameter tuning to improve performance.
 
-## Estructura del Documento
+## Document Structure
 
-1. **Revisión de Literatura:** Métodos existentes en la detección de phishing.
-2. **Descripción del Conjunto de Datos:** Detalles sobre la recopilación y características del conjunto de datos.
-3. **Metodología:** Pasos en la implementación y evaluación del modelo.
-4. **Resultados:** Análisis de los resultados obtenidos.
+1. **Literature Review:** Existing methods in phishing detection.
+2. **Dataset Description:** Details about the dataset collection and characteristics.
+3. **Methodology:** Steps in the implementation and evaluation of the model.
+4. **Results:** Analysis of the results obtained.
